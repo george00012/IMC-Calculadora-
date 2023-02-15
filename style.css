@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: #276e90;
+}
+
+main{
+    background-color: #cecfc9;
+    padding: 1rem;
+    margin: 1rem;
+    color: #232323;
+    border-radius: 1rem;
+}
+
+h1{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+div{
+    padding: 1rem;
+}
+
+.contenido{
+    padding: 0;
+    color: #000;
+    text-align: center;
+}
+
+input{
+    height: 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    margin-left: 0.3rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.resultadoContenido{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultado{
+    display: grid;
+    place-content: center;
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+button{
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem 0 0 0;
+    background-color: #0a3143;
+    color:#fff;
+    text-align: center;
+    width: 10rem;
+}
+
+.mostrarResultado{
+    text-align: center;
+    padding: 1rem 0 0 0;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(40, 218, 49);
+}
+
+.descripcion{
+    text-align: center;
+    color:#000;
+}
+
+h3{
+    padding-bottom: 1rem;
+}
+
+p{
+    padding: 0.25rem;
+    text-align: left;
+}
+
+@media (min-width: 790px) {
+    main{
+        width: 32rem;
+    }
+    input{
+        width: 18em;
+    }
+    button{
+        padding: 1rem 1.4rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .resultadoContenido{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
